@@ -16,10 +16,12 @@ addbtn.addEventListener('click', () => {
     localStorage.setItem('highScore', timesClicked);
     highScore.innerHTML = timesClicked
   }
+  navigator.vibrate([100])
 })
 
 resetbtn.addEventListener('click', () => {
   counter.innerHTML = timesClicked = 0
+    navigator.vibrate([100, 100, 100])
 })
 
 main.addEventListener('click', (ev) => {
