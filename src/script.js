@@ -21,7 +21,7 @@ addbtn.addEventListener('click', () => {
 
 resetbtn.addEventListener('click', () => {
   counter.innerHTML = timesClicked = 0
-    navigator.vibrate([100, 100, 100])
+    navigator.vibrate([500, 100, 500])
 })
 
 main.addEventListener('click', (ev) => {
