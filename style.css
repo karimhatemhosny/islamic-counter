@@ -25,8 +25,8 @@ body {
 }
 
 #addbtn {
-  height: 35vw;
-  width: 35vw;
+  height: 40vw;
+  width: 40vw;
   max-width: 300px;
   max-height: 300px;
   border: 2px solid var(--textcolor);
@@ -39,11 +39,12 @@ body {
 
 #addbtn:active {
   box-shadow: 1px 1px 1px grey;
+  user-select: none;
 }
 
 #counter {
-  height: 7vw;
-  width: 50vw;
+  height: 15vw;
+  width: 70vw;
   border: 2px solid var(--textcolor);
   border-radius: 5px;
   margin-bottom: 10px;
@@ -52,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 7vw;
+  font-size: 14vw;
   max-width: 70%;
 }
 
@@ -64,7 +65,7 @@ body {
   background-color: var(--btncolor);
   position: absolute;
   right: 17vw;
-  top: 20vh;
+  top: 24vh;
   max-width: 4em;
   max-height: 4em;
   box-shadow: 5px 5px 5px grey;
@@ -73,6 +74,7 @@ body {
 
 #resetbtn:active {
   box-shadow: 1px 1px 1px grey;
+  
 }
 
 #main {
