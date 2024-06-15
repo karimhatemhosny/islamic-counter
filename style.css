@@ -9,7 +9,8 @@
   --textcolor: white;
 }
 
-html, body{
+html,
+body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--textcolor);
   height: 95vh;
@@ -18,20 +19,29 @@ html, body{
   padding: 0;
   background-color: var(--bgcolor);
 }
+
 * {
   box-sizing: border-box;
 }
-#addbtn{
-  height: 40vw;
-  width: 40vw;
+
+#addbtn {
+  height: 35vw;
+  width: 35vw;
   max-width: 300px;
   max-height: 300px;
   border: 2px solid var(--textcolor);
   border-radius: 50%;
   background-color: var(--btncolor);
   margin: auto;
+  box-shadow: 5px 5px 5px grey;
+  cursor: pointer;
 }
-#counter{
+
+#addbtn:active {
+  box-shadow: 1px 1px 1px grey;
+}
+
+#counter {
   height: 7vw;
   width: 50vw;
   border: 2px solid var(--textcolor);
@@ -46,7 +56,7 @@ html, body{
   max-width: 70%;
 }
 
-#resetbtn{
+#resetbtn {
   height: 10vw;
   width: 10vw;
   border: 2px solid var(--textcolor);
@@ -57,8 +67,15 @@ html, body{
   top: 20vh;
   max-width: 4em;
   max-height: 4em;
+  box-shadow: 5px 5px 5px grey;
+  cursor: pointer;
 }
-#main{
+
+#resetbtn:active {
+  box-shadow: 1px 1px 1px grey;
+}
+
+#main {
   border: 2px solid var(--textcolor);
   margin: 10px;
   padding: 10px;
@@ -70,6 +87,7 @@ html, body{
   justify-content: center;
   flex-direction: column;
 }
-#stats{
+
+#stats {
   font-size: xx-large;
 }
