@@ -1,0 +1,71 @@
+:root {
+  --bgcolor: white;
+  --btncolor: grey;
+  --textcolor: black;
+}
+:root.dark {
+  --bgcolor: black;
+  --btncolor: grey;
+  --textcolor: white;
+}
+
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--textcolor);
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgcolor);
+}
+* {
+  box-sizing: border-box;
+}
+#addbtn{
+  height: 40vw;
+  width: 40vw;
+  max-width: 300px;
+  max-height: 300px;
+  border: 2px solid var(--textcolor);
+  border-radius: 50%;
+  background-color: var(--btncolor);
+  margin: auto;
+}
+#counter{
+  height: 10vw;
+  width: 50vw;
+  border: 2px solid var(--textcolor);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vw;
+}
+
+#resetbtn{
+  height: 10vw;
+  width: 10vw;
+  border: 2px solid var(--textcolor);
+  border-radius: 50%;
+  background-color: var(--btncolor);
+  position: absolute;
+  right: 17vw;
+  top: 20vh;
+}
+#main{
+  border: 2px solid var(--textcolor);
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#stats{
+  font-size: xx-large;
+}
